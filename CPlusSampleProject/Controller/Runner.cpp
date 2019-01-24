@@ -6,11 +6,12 @@
 //  Copyright © 2019 Davis, Lauren. All rights reserved.
 //
 
-#include <iostream> //preprocessor directive
+#include "Controller.hpp"
 
 int main()
 {
-    
+    Controller app;
+    app.start();
     
     return 0;
 }
